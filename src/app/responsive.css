@@ -1,0 +1,1728 @@
+/* Min width */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+  .travel-sec:after {
+    left: 0;
+  }
+}
+@media (min-width: 1921px) {
+  .bnr-sec {
+    padding: 200px 0 150px;
+  }
+  .bnr-heading,
+  .banner-heading {
+    font-size: 64px;
+  }
+  .innr-bnr-sec .bnr-heading {
+    font-size: 42px;
+  }
+  .bnr-ctnt ul a,
+  .septr {
+    font-size: 22px;
+  }
+  .sec-padding {
+    padding: 100px 0;
+  }
+  .sec-padding-bottom {
+    padding-bottom: 100px;
+  }
+  .sec-heading {
+    font-size: 48px;
+    font-weight: 500;
+  }
+  .our-customer {
+    padding-left: 12%;
+  }
+}
+
+@media (max-width: 1599px) {
+  .nav-list {
+    gap: 20px;
+  }
+  .btn-design,
+  .btn-design-strok {
+    padding: 12px 30px;
+  }
+  /* airfare */
+  .rental-car {
+    height: 425px;
+}
+/* onewayflight */
+#costs-length {
+  height: 400px;
+}
+}
+
+/* Max Width */
+@media (max-width: 1440px) {
+  /* Header */
+  .auth-btns a {
+    font-size: 14px;
+  }
+  .bottom-wpr {
+    padding: 10px 0;
+  }
+  .btn-design {
+    padding: 10px 34px;
+    font-size: 14px;
+  }
+  .inr-hdr .lft-ctnt {
+    gap: 35px;
+  }
+  .inr-hdr .nav-list {
+    gap: 16px;
+  }
+  .inr-hdr .nav-list li a {
+    font-size: 14px;
+  }
+  /* End Header */
+  /* Contact sec */
+  .contact-card {
+    padding: 30px 40px;
+  }
+
+  /* Gallery */
+  .tab-btns {
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    min-width: 160px;
+    min-height: 50px;
+    font-size: 14px;
+  }
+  .tab-btn img {
+    max-height: 22px;
+  }
+
+  /* Two Column Box */
+  .two-col-hdg h3 {
+    font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1920 - 320)));
+  }
+  div.after-heading {
+    font-size: 32px;
+    padding-left: 80px;
+  }
+  .after-heading.line:after {
+    width: 60px;
+    height: 2px;
+  }
+  .after-heading.airoplain:before {
+    height: 70px;
+  }
+  .two-col-ctnt p {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .two-col-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .two-col-img img {
+    height: 400px;
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  /* offer sec */
+  .offer-sec {
+    padding: 0px 0px 80px;
+  }
+
+  /* Holiday Package */
+  .current-trip-sec .sec-heading {
+    margin-bottom: 40px;
+  }
+  .package-cards {
+    gap: 20px;
+  }
+  .package-card {
+    flex-basis: calc(100% / 3 - 14px);
+    max-width: calc(100% / 3 - 14px);
+  }
+
+  /* Trip Request */
+  .fx-row {
+    gap: 16px;
+  }
+  .col-fx-4 {
+    flex-basis: calc(100% / 3 - 12px);
+    max-width: calc(100% / 3 - 11px);
+  }
+  .col-fx-6 {
+    flex-basis: calc(50% - 8px);
+  }
+  .fx-row-copoun {
+    width: 90%;
+  }
+  .col-fx-4.cpn-cards {
+    max-width: 100%;
+  }
+  /* Chat */
+  .chat-msg-wpr {
+    padding: 20px;
+  }
+  .chat-img {
+    max-width: 50px;
+  }
+  .chat-info h5 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .chat-info h6 {
+    font-size: 15px;
+  }
+  .chat-bx,
+  .chat-bx-user {
+    height: 660px;
+  }
+  .chat-ftr img {
+    max-width: 30px;
+  }
+  .msg-list li {
+    padding: 10px 16px !important;
+    font-size: 13px;
+  }
+  .chat-sec-img img {
+    max-width: 350px;
+  }
+
+  /* Footer */
+  .footer-detail ul li a {
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+  }
+
+  /* Popup */
+  .logout-popup .popup-ctnr {
+    padding: 40px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .popup-ctnt h4 {
+    font-size: 20px;
+  }
+
+  /* Modal */
+  .mdl-wpr {
+    max-width: 990px;
+  }
+  .our-cust-card {
+    min-height: 350px;
+  }
+  /* Skeleton */
+  .our-cust-card .react-loading-skeleton {
+    height: 350px;
+    width: 300px;
+  }
+  .ai-btn {
+    font-size: 14px;
+  }
+  .rental-car {
+    height: 445px;
+}
+.oneway-sec {
+  padding: 80px 0px 70px 0px;
+}
+#cmft-length {
+  height: 320px;
+}
+/* onewayflight */
+#costs-length {
+  height: 485px;
+}
+/* roundtrip */
+.efficient-img1 img {
+  width: 410px;
+  margin-right: 70px;
+}
+}
+
+@media (max-width: 1300px) {
+  .inr-hdr .bar-btn {
+    display: block;
+  }
+
+  /* Popup */
+  .popup-ctnr {
+    padding: 30px 20px;
+  }
+  .feedback-popup .popup-ctnr {
+    max-width: 380px;
+  }
+  .popup-img {
+    max-width: 80px;
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* *** */
+  .inr-hdr .nav-list {
+    display: none;
+  }
+  .inr-hdr .rgt-ctnt {
+    display: flex;
+    align-items: center;
+  }
+  .inr-hdr .bar-btn {
+    display: block !important;
+  }
+  .inr-hdr .bar-btn img {
+    max-width: 24px;
+    filter: invert(1);
+  }
+  .drawer-bx li img {
+    filter: invert(1);
+    padding: 30px 0 0 20px;
+    margin-bottom: 20px;
+  }
+  /* header */
+  .lft-ctnt {
+    display: flex;
+    gap: 60px;
+  }
+  .nav-list {
+    gap: 25px;
+  }
+  .btn-design {
+    padding: 10px 30px;
+  }
+  .nav-list a {
+    font-size: 15px;
+  }
+
+  /* inr Header */
+  .adventure-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+  }
+  .travel-sec {
+    padding: 80px 0px;
+  }
+
+  /* carousel */
+  .our-customer-slider .owl-nav {
+    bottom: 10px;
+    left: -51%;
+  }
+
+  /* Subscribe Section */
+  .subscribe-sec {
+    max-width: 90%;
+  }
+  .subscribe-content h2 {
+    font-size: 24px;
+  }
+  .subscribe-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  button.common-btn1 {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .subscribe-sec:after {
+    top: 24%;
+    height: 150px;
+  }
+
+  /* .dest-gallery */
+  .dest-gallery {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .dbc-wpr span {
+    font-size: 20px;
+  }
+  .percent {
+    margin-top: 10px;
+  }
+  .percent div {
+    font-size: 50px;
+  }
+  .percent sup {
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 8px;
+  }
+  .dest-big-hdng {
+    font-size: 24px;
+  }
+  /* About Page */
+  .mission-card-wpr {
+    gap: 30px;
+  }
+  .mission-card {
+    flex: 0 0 calc(100% / 3 - 20px);
+  }
+
+  /* Holiday Package */
+  .package-ctnt {
+    padding: 20px 15px;
+  }
+  .package-name-wpr {
+    margin-bottom: 10px;
+  }
+  .package-name-wpr h4,
+  .package-name-wpr h5 {
+    font-size: 18px;
+  }
+  .package-desc {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  /* Trip Request */
+  .triprequest-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .triprequest-img img {
+    max-width: 400px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  /* Popup */
+  .payment-popup .popup-ctnr {
+    max-width: 380px;
+  }
+  .payment-popup .popup-ctnr ul li {
+    padding: 10px 16px !important;
+  }
+  .payment-popup .popup-ctnr ul li label {
+    font-size: 14px;
+  }
+
+  /* Popup */
+  .rating-emoji label svg {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .file-upload {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .file-upload .icon {
+    width: 18px;
+  }
+  .file-upload img {
+    width: 20px;
+  }
+
+  /* Modal */
+  .mdl-wpr {
+    max-width: 750px;
+  }
+  .auth-rgt-ctnt {
+    padding: 48px 30px 40px;
+  }
+  .auth-rgt-ctnt h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .authForm-input {
+    margin-bottom: 15px;
+  }
+  .auth-btn button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .forgot {
+    margin-bottom: 4px !important;
+  }
+  .our-cust-card {
+    min-height: 300px;
+  }
+
+  .masnory-list li {
+    min-height: auto;
+  }
+  /* Footer */
+  .footer-description {
+    margin: 20px 0px;
+  }
+  /* sidebar */
+  .MuiPaper-root.MuiDrawer-paper,
+  .MuiDrawer-root.MuiDrawer-modal {
+    display: block !important;
+  }
+  .MuiDrawer-paper
+    .MuiListItem-root
+    .MuiListItemText-root
+    span.MuiTypography-root {
+    font-weight: 500 !important;
+  }
+
+  /* Itinerary page */
+  .itiner-page .form-box {
+    max-width: 80%;
+  }
+  .logout-btn {
+    display: none;
+  }
+  .btn-wpr .ai-btn {
+    display: flex;
+  }
+
+  /* carrental */
+  .rethinking-description {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.rental-car {
+  height: 535px;
+}
+.rentcar-img img {
+  width: 90px;
+}
+.oneway-ctnt {
+  padding: 0px 50px;
+}
+#cmft-length {
+  height: 380px;
+}
+.efficient-img img {
+  width: 270px;
+}
+/* onewayflight */
+#costs-length {
+  height: 525px;
+}
+.efficient-img1 img {
+  width: 380px;
+}
+}
+
+@media (max-width: 1024px) {
+  .contact-cards {
+    gap: 20px;
+  }
+  .contact-img img {
+    max-width: 50px;
+  }
+  .contact-heading {
+    margin-bottom: 8px;
+  }
+  .contact-desc {
+    font-size: 14px;
+  }
+
+  /* Our Choose */
+  .our-customer {
+    padding-left: 0 !important;
+  }
+  .our-customer .container-fluid {
+    max-width: 720px;
+  }
+  .our-customer .our-customer-slider {
+    margin-top: 20px;
+  }
+  .our-customer::after {
+    height: 110px;
+  }
+  .our-customer-slider .owl-nav {
+    bottom: 30px;
+    left: -52%;
+  }
+  .our-customer-slider .owl-nav button {
+    width: 20px;
+    height: 20px;
+  }
+  /* testimonial */
+  .rating {
+    margin: 15px 0 10px;
+  }
+  .testimonial-name {
+    font-size: 18px;
+  }
+  .designation {
+    font-size: 16px;
+  }
+  /* offer slider */
+  .offer-card .offer-detail {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Header */
+  .lft-ctnt {
+    gap: 40px;
+  }
+  .lft-ctnt a img {
+    max-width: 80px;
+  }
+  .nav-list {
+    gap: 25px;
+  }
+  .nav-list a {
+    font-size: 14px;
+  }
+  .auth-btns {
+    padding: 6px 0 !important;
+  }
+  .auth-btns a {
+    font-size: 12px;
+  }
+  .main-hdr .btn-design {
+    padding: 8px 24px;
+    font-size: 12px;
+  }
+
+  .btn-design-strok {
+    padding: 8px 24px;
+    font-size: 14px;
+  }
+
+  .btn-design-strok img {
+    width: 16px;
+    line-height: 0;
+  }
+  /* End Header */
+
+  /* Start Banner */
+  .bnr-heading {
+    font-size: calc(26px + (44 - 26) * ((100vw - 320px) / (1920 - 320)));
+  }
+  /* End banner */
+  .footer-description {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 30px 0px;
+  }
+  .footer-content {
+    padding-left: 0;
+  }
+  .footer-sec .row {
+    row-gap: 20px;
+  }
+  /* contact sec */
+  .contact-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-card {
+    width: 100%;
+  }
+  .contact-form {
+    padding: 40px 30px;
+    margin-top: 20px;
+  }
+  .contact-form h3 {
+    margin-bottom: 15px;
+  }
+  .cstm-form-rw {
+    gap: 10px;
+  }
+  .cstm-form-rw input,
+  .cstm-form-rw textarea {
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  /* Two Column box */
+  .two-col-bx.reverse .row {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  /* why choose */
+  .choose-sec-list {
+    flex-wrap: wrap;
+  }
+  .choose-sec-list li {
+    flex: 0 0 calc(100% / 2 - 20px);
+  }
+  .choose-sub-head {
+    font-size: 20px;
+  }
+  .choose-description {
+    font-size: 14px;
+  }
+  .our-customer::after {
+    display: none;
+  }
+
+  /* Testimonial section */
+  .testimonial-desc {
+    font-size: 18px;
+    max-width: 550px;
+  }
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+  }
+
+  /* About Page */
+  .mission-card-wpr {
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 80px;
+  }
+  .mission-card {
+    flex: 0 0 calc(100% / 2 - 30px);
+  }
+
+  /* Table Box */
+  .table-bx {
+    padding: 20px 15px;
+  }
+  .table-bx h6 {
+    font-size: 20px;
+  }
+  .table-bx thead tr th span button,
+  .table-bx tbody tr td {
+    font-size: 14px !important;
+  }
+
+  /* Holiday Package */
+  .package-card {
+    flex-basis: calc(100% / 2 - 10px);
+    max-width: calc(100% / 2 - 10px);
+  }
+
+  /* Trip Request */
+  .col-fx-4 {
+    flex-basis: calc(100% / 2 - 8px);
+    max-width: calc(100% / 2 - 8px);
+  }
+
+  /* Trip Status */
+  .small-heading {
+    font-size: 24px;
+  }
+  .trip-list {
+    margin-top: 20px;
+  }
+  .trip-list-item {
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .trip-list-item ul li h5,
+  .trip-list-item ul li b {
+    font-size: 18px;
+    gap: 4px;
+  }
+  .trip-list-item ul li h5 .time {
+    font-size: 14px;
+  }
+  .price {
+    font-size: 24px;
+  }
+
+  /* Chat */
+  .chat-bx-otr {
+    flex-direction: column;
+  }
+  .chat-bx-user {
+    flex: 0 0 100%;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  .chat-bx-user .sec-inr-heading {
+    display: none;
+  }
+  .chat-srch {
+    margin-top: 0;
+  }
+  .chat-usr-list {
+    gap: 12px;
+    height: 300px;
+  }
+  .chat-sec .row {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .chat-hdr {
+    border-radius: 0;
+  }
+
+  /* Term And Conditions */
+  .sec-inr-heading {
+    text-align: center;
+    font-size: calc(22px + (32 - 22) * ((100vw - 320px) / (1920 - 320)));
+  }
+  .sec-inr-heading br {
+    display: none;
+  }
+  .privacy-heading {
+    font-size: 18px;
+  }
+  .privacy-para,
+  .privacy-ctnt p,
+  .privacy-ctnt ul li {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 8px 0;
+  }
+  /* Coupon cards  */
+  .fx-row-copoun .owl-item {
+    padding: 0;
+    margin: 10px 0;
+  }
+  /* Ticket info */
+  .trip-info-hdg {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  /* Trip details */
+  .trip-box {
+    flex-direction: column;
+  }
+  .trip-detail {
+    padding: 35px;
+  }
+  .trip-detail ul li {
+    margin-right: 0px !important;
+  }
+  /* Skeleton */
+  .our-cust-card .react-loading-skeleton {
+    height: 270px;
+    max-width: 300px;
+    width: 100%;
+  }
+  /* side bar */
+  .bar-btn img {
+    max-width: 24px;
+    filter: invert(1);
+  }
+  .top-inr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+  .top-inr .btn-wpr,
+  .bar-btn {
+    display: flex !important;
+  }
+  .lft-ctnt .nav-list {
+    display: none;
+  }
+  .bar-btn {
+    padding: 0 !important;
+  }
+  .rgt-ctnt .btn-wpr .btn-design {
+    display: none;
+  }
+
+  .lft-ctnt a img {
+    max-width: 100px;
+  }
+
+  .auth-btns {
+    padding: 0 !important;
+  }
+  .top-inr .btn-design {
+    padding: 6px 20px;
+  }
+  .drawer-bx .MuiDrawer-paperAnchorLeft {
+    padding: 40px 0;
+  }
+  .drawer-bx .MuiDrawer-paperAnchorLeft img {
+    filter: invert(1);
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .drawer-bx .MuiDrawer-paperAnchorLeft span {
+    font-weight: 500;
+  }
+  .main-hdr {
+    margin-bottom: -65px !important;
+  }
+  .top-inr {
+    display: none;
+  }
+  .footer-sec .row {
+    row-gap: 0px;
+  }
+  .drawer-bx li img {
+    padding: 0;
+  }
+
+  /* Itinerary page */
+  .itiner-page .form-box {
+    max-width: 100%;
+  }
+  /* carrental */
+  .rethinking-sec {
+    padding: 120px 0px 50px;
+}
+.rethinking-description {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.banner-btn {
+  padding: 12px 25px;
+  font-size: 18px;
+}
+.rental-car {
+  height: 485px;
+  margin-bottom: 20px;
+}
+.rentcar-img img {
+  width: 80px;
+}
+.two-col-bx.reverse.highlight .row {
+  flex-direction: column;
+  gap: 0px;
+}
+.oneway-ctnt {
+  padding: 0px 20px;
+}
+.oneway-sec {
+  padding: 60px 0px 60px 0px;
+}
+#cmft-length {
+  height: 350px;
+  margin-bottom: 25px;
+}
+.efficient-img {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.efficient-img img {
+  width: 200px;
+}
+/* airfare */
+.solotrip-sec {
+  padding: 120px 0px 50px;
+}
+.solotrip-sec .banner-heading br {
+  display: none;
+}
+/* onewayflight */
+.onewayflight-sec {
+  padding: 120px 0px 50px;
+}
+.onewayflight-sec .banner-heading br {
+  display: none;
+}
+#costs-length {
+  height: 510px;
+}
+/* roundtrip */
+.roundtrip-sec {
+  padding: 120px 0px 50px;
+}
+.roundtrip-sec .banner-heading br {
+  display: none;
+}
+.efficient-img1 img {
+  width: 300px;
+}
+}
+
+@media (max-width: 767px) {
+  .our-customer .container-fluid {
+    max-width: 540px;
+  }
+  .our-customer::after {
+    display: none;
+  }
+  .offer-sec {
+    text-align: center;
+    padding-bottom: calc(40px + (100 - 40) * ((100vw - 320px) / (1920 - 320)));
+  }
+  .special-offer {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto 15px;
+  }
+  /* ** */
+
+  /* Gallery Section */
+  .tab-btn {
+    max-width: calc(100% / 2 - 10px) !important;
+    min-width: auto;
+    flex: 0 0 calc(100% / 2 - 10px);
+  }
+  .tab-ctnt {
+    margin-bottom: 0 !important;
+  }
+  ul.masnory-list {
+    column-count: 2 !important;
+  }
+
+  /* Two column box */
+  .two-col-img img,
+  .adventure-image img {
+    height: 300px;
+  }
+  .travel-sec:after {
+    height: 214px;
+  }
+  div.after-heading {
+    font-size: 25px;
+    padding-left: 40px;
+  }
+
+  /* why choose sec */
+  .choose-sec-list li {
+    flex: 0 0 100%;
+  }
+  .choose-sub-head {
+    font-size: 20px;
+  }
+
+  /* Testimonial Section */
+  .testimonial-desc {
+    font-size: 16px;
+    max-width: 380px;
+  }
+  .subscribe {
+    padding-top: 40px;
+  }
+  .subscribe-content {
+    padding: 40px;
+  }
+
+  /* About Page */
+  .mission-card {
+    flex: 0 0 calc(100% - 30px);
+  }
+
+  /* Trip Request */
+  label:empty {
+    display: none;
+  }
+  .fx-row {
+    margin-bottom: 15px;
+  }
+  .trip-list-sec .col-fx-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Trip Status */
+  .small-heading {
+    font-size: 20px;
+  }
+  .trip-list-item ul li h5 {
+    font-size: 18px;
+  }
+  .price {
+    font-size: 22px;
+  }
+  .trip-list-item ul li h5 .time {
+    font-size: 15px;
+  }
+  .trip-list-item ul li b {
+    font-size: 16px;
+  }
+  .feedback-card {
+    padding: 24px;
+  }
+  .fb-btn-wpr button {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  /* Form Design */
+  .form-heading {
+    font-size: 22px;
+  }
+  .fx-row label,
+  label.label {
+    font-size: 16px;
+  }
+
+  /* Modal */
+  .mdl-wpr {
+    max-width: 90%;
+  }
+  .feed_mdl .mdl-wpr {
+    max-width: 400px;
+  }
+  .auth-mdl-wpr {
+    flex-direction: column;
+  }
+  .auth-lft-ctnt {
+    display: none;
+  }
+
+  /* Checkout form */
+  .checkout-form .form-row {
+    gap: 0;
+    flex-direction: column;
+  }
+  /* Offer Carousel */
+  .trip-list-page .owl-nav {
+    margin-top: 0px;
+  }
+  /* Itineray page  */
+  .form-box form .input-grp:not(:first-child) {
+    flex-direction: column;
+  }
+  .form-box form .input-grp div {
+    gap: 0px;
+  }
+  .input-grp:not(:first-child) div {
+    max-width: 100%;
+    gap: 0;
+  }
+  /* Trip Itinerary */
+  .itinerary-data .custom-textarea {
+    width: 90%;
+  }
+  /* carrental */
+  .rethinking-sec .banner-content {
+    text-align: center;
+}
+  .banner-btn {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+  .rental-car {
+    height: 475px;
+    width: 330px;
+    margin: 10px auto;
+}
+#cmft-length {
+  height: 365px;
+  text-align: center;
+  width: 300px;
+  margin: 12px auto;
+}
+.efficient-sec .row {
+  flex-direction: column-reverse;
+}
+.efficient-detail {
+  padding: 30px;
+}
+.efficient-ctnt {
+  text-align: center;
+}
+.efficient-img img {
+  margin-top: 20px;
+}
+/* airfare */
+.solotrip-sec .banner-content {
+  text-align: center;
+}
+/* onewayflight */
+.onewayflight-sec .banner-content {
+  text-align: center;
+}
+#costs-length {
+  text-align: center;
+  height: 370px;
+}
+/* roundtrip */
+.roundtrip-sec .banner-content{
+  text-align: center;
+}
+.efficient-img1 img {
+  margin-right: 0px;
+}
+}
+
+@media (max-width: 600px) {
+  .table-bx {
+    padding-top: 0;
+  }
+  .table-bx div[aria-label="Table Toolbar"] {
+    padding: 0;
+  }
+  .table-bx div[aria-label="Table Toolbar"] div:first-child {
+    padding: 0;
+  }
+  .table-bx div[aria-label="Table Toolbar"] div:first-child h6 {
+    text-align: left;
+  }
+  .table-bx div[aria-label="Table Toolbar"] div:nth-child(2) {
+    text-align: right;
+  }
+  /* Skeleton */
+  .holiday-list .MuiImageListItem-root {
+    min-height: 150px;
+  }
+}
+
+@media (max-width: 575px) {
+  .top-inr {
+    display: none;
+  }
+  .footer-detail ul li a {
+    width: 36px;
+    height: 36px;
+    padding: 9px;
+  }
+
+  .footer-sec {
+    padding-top: 40px;
+  }
+  .contact-cards {
+    margin-top: 30px;
+  }
+  .after-heading.line {
+    font-size: 25px;
+    padding-left: 0;
+  }
+  .after-heading.line:after {
+    width: 60px;
+    height: 2px;
+    top: auto;
+    bottom: 0;
+    transform: translateY(0px);
+  }
+  .copyright {
+    padding-top: 20px;
+  }
+
+  .destination-sec .sec-heading-wpr {
+    margin-bottom: 30px !important;
+  }
+
+  /* About Page */
+  .mission-card {
+    padding: 50px 20px 20px;
+  }
+
+  /* Holiday Package */
+  .package-card {
+    flex-basis: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .pagination-wpr button {
+    width: 40px;
+    height: 40px;
+  }
+  .pagination-wpr ul {
+    justify-content: center;
+    row-gap: 10px;
+  }
+
+  /* Setting */
+  .form-design {
+    padding: 20px 40px 40px;
+  }
+  .form-btn-group {
+    gap: 20px;
+    margin: 10px 0 20px;
+  }
+  .tab-heading {
+    font-size: 22px;
+  }
+  .trip-list-sec .form-group {
+    max-width: 100%;
+  }
+  .col-fx-6 {
+    flex-basis: 100%;
+  }
+  .fx-row label,
+  label.label {
+    font-size: 14px;
+  }
+
+  /* Trip Status */
+  .current-trip-sec {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .fb-btn-wpr button {
+    padding: 12px 20px;
+  }
+  .feedback-card {
+    padding: 20px;
+  }
+  .trip-list-item ul li h5 {
+    font-size: 16px;
+  }
+
+  /* Popup */
+  .logout-popup .popup-ctnr {
+    padding: 30px 20px;
+    max-width: 300px;
+  }
+  .popup-ctnt h4 {
+    font-size: 18px;
+  }
+  .logout-popup .btn-wpr {
+    margin-top: 30px;
+    gap: 15px;
+  }
+  .modalClose {
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+  }
+  .feedback-popup .popup-ctnr {
+    max-width: 300px;
+  }
+
+  /* Payment Popup */
+  .payment-popup .popup-ctnr {
+    max-width: 300px;
+  }
+
+  /* Chat Page */
+  .usr-name {
+    font-size: 14px;
+  }
+  .last-msg,
+  .time {
+    font-size: 12px;
+  }
+  .msg-list {
+    max-width: 75%;
+  }
+  .chat-usr-img {
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+  }
+  .chat-srch {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  /* Coupon cards  */
+  .fx-row-copoun .owl-item .col-fx-4 {
+    flex: 0 0 70% !important;
+    margin: auto;
+  }
+  /* MUI Datatable */
+  .MuiGrid-root.MuiGrid-container {
+    flex-direction: column !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .MuiGrid-root.MuiGrid-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  /* carrental */
+  .rethinking-description {
+    font-size: 20px;
+}
+.banner-btn {
+  padding: 12px 16px;
+  font-size: 16px;
+}
+/* onwayflight */
+#costs-length {
+  height: 385px;
+}
+}
+
+@media (max-width: 481px) {
+  .cstm-form-rw .fx-6 {
+    flex-basis: calc(100%);
+    max-width: calc(100%);
+  }
+  .sec-heading br {
+    display: none;
+  }
+  .btn-wpr .btn-design {
+    min-width: 100px;
+  }
+  .contact-form {
+    padding: 30px 16px;
+    margin-top: 20px;
+  }
+  .footer-sec {
+    padding-bottom: 10px;
+  }
+  .copyright {
+    margin: 30px 0px 0px 0px;
+    padding-top: 10px;
+  }
+  .footer-description {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  /* Gallery Sec */
+  .tab-btn {
+    min-height: 42px;
+    font-size: 13px;
+  }
+  .dest-gallery {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  /* Testimonial Section */
+  .testimonial-sec .owl-nav {
+    top: calc(100% + 15px);
+    transform: translateY(0%);
+    justify-content: center;
+    gap: 20px;
+  }
+  .subscribe-content div {
+    flex-direction: column;
+    gap: 10px !important;
+  }
+  .subscribe-content input {
+    border-radius: 35px;
+    padding: 8px 20px;
+  }
+  .subscribe-content {
+    padding: 30px 20px;
+  }
+
+  /* Table Box */
+  .table-bx div[aria-label="Table Toolbar"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  /* Trip Staus */
+  .rating-emoji label svg {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  /* Modal */
+  .feed_mdl .mdl-wpr {
+    max-width: 90%;
+  }
+  .auth-rgt-ctnt {
+    padding: 28px 20px 30px;
+  }
+  .auth-rgt-ctnt h4 {
+    font-size: 20px;
+  }
+  .image-prev > img {
+    width: 90px;
+    height: 90px;
+  }
+  .image-prev span {
+    right: 12px;
+  }
+  .authForm-input fieldset {
+    border-radius: 8px;
+  }
+  .othr-links {
+    font-size: 14px;
+  }
+  .verification-pwd .authForm > div:first-child {
+    gap: 5px;
+  }
+
+  .verification-pwd .authForm > div:first-child input {
+    padding: 10px;
+  }
+
+  /* offer carousel */
+  .trip-list-page .fx-row-copoun .owl-item .col-fx-4 {
+    flex: 0 0 100% !important;
+  }
+  /* Reset password */
+  .reset-page .bnr-sec {
+    padding: 50px;
+    height: 30vh;
+  }
+  .reset-pass {
+    padding: 30px 40px;
+    position: static;
+    transform: none;
+    box-shadow: none;
+  }
+
+  /* Trip Details */
+  .trip-detail {
+    padding: 20px;
+  }
+  .trip-detail ul li {
+    padding: 8px 0;
+  }
+  .trip-detail ul li h6 {
+    flex: 0 0 45%;
+    font-size: 14px !important;
+  }
+  .trip-detail ul li p {
+    flex: 0 0 50%;
+    font-size: 13px !important;
+  }
+  /* Chat */
+  .msg-list {
+    max-width: 80%;
+  }
+  /* Skeleton */
+  .holiday-list .MuiImageListItem-root {
+    min-height: 150px;
+  }
+  .our-cust-card {
+    min-height: 200px;
+    max-height: 200px;
+  }
+  /* gallery slider */
+  .our-customer-slider .owl-item {
+    margin-left: 15px;
+  }
+
+  /* Itinerary page */
+  .itiner-page .form-box {
+    padding: 30px;
+  }
+  .itiner-page h4 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .form-box button {
+    padding: 16px 45px;
+  }
+  .itinerary-data h2,
+  .itinerary-data h3,
+  .itinerary-data h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #004f87;
+  }
+  .btn-wpr .ai-btn {
+    display: none;
+  }
+  /* carrental */
+  .rethinking-sec {
+    padding: 90px 0px 30px;
+}
+.rethinking-description {
+  font-size: 16px;
+}
+.banner-btn {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+.two-col-bx.reverse .row {
+  flex-direction: column-reverse;
+  gap: 0px;
+}
+
+.rental-car {
+  height: 505px;
+  width: 280px;
+  margin: 10px auto;
+  padding: 25px;
+  text-align: center;
+}
+#cmft-length {
+  height: 380px;
+  width: 280px;
+}
+/* airfare */
+.solotrip-sec {
+  padding: 90px 0px 30px;
+}
+/* onewayflight */
+.onewayflight-sec {
+  padding: 90px 0px 30px;
+}
+#costs-length {
+  height: 530px;
+}
+/* roundtrip */
+.roundtrip-sec {
+  padding: 90px 0px 30px;
+}
+.efficient-img1 img {
+  width: 250px;
+  margin-top: 20px;
+}
+}
+
+@media (max-width: 414px) {
+  .current-trip-sec {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .trip-upr,
+  .trip-lwr {
+    padding: 20px 20px;
+  }
+  .total-price {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  /* Chat */
+  .chat-msg-wpr {
+    padding: 15px 10px;
+  }
+  .chat-hdr {
+    padding: 15px;
+    gap: 15px;
+  }
+  .chat-img {
+    max-width: 40px;
+  }
+  .chat-info h5 {
+    font-size: 16px;
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+  .chat-info h6 {
+    font-size: 13px;
+  }
+  .recieve-msg {
+    gap: 10px;
+  }
+  .msg-img {
+    width: 30px;
+  }
+  .msg-list {
+    gap: 5px;
+  }
+  .msg-list li {
+    padding: 6px 16px 11px !important;
+    font-size: 12px;
+  }
+  .chat-ftr input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 381px) {
+  .prf-bx {
+    padding: 20px;
+  }
+  .prf-conatiner {
+    max-width: 140px;
+    max-height: 140px;
+  }
+  .prf-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .prf-icon img {
+    width: 18px;
+  }
+  .setting-tabs {
+    margin-top: 20px !important;
+  }
+  .tab-heading {
+    padding: 16px 20px;
+  }
+  .form-design {
+    padding: 20px;
+    gap: 15px;
+  }
+  .form-group input {
+    padding: 8px 15px;
+  }
+
+  /* Trip Status */
+  .trip-list-item ul li {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  /* Coupon cards */
+  .fx-row-copoun .owl-item .col-fx-4 {
+    flex: 0 0 100% !important;
+  }
+  .offer-card .offer-detail {
+    width: 100%;
+  }
+  .offer-card .offer-detail h4 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .offer-card .offer-detail h4 span {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .offer-btn {
+    padding: 5px 24px;
+  }
+  /* Checkout form */
+  .checkout-form,
+  .order-summary {
+    padding: 20px;
+  }
+  .checkout-form .form-group {
+    margin-bottom: 15px;
+  }
+  .checkout-form button[type="submit"] {
+    margin-top: 20px;
+  }
+  /* Trip Detail */
+  .trip-detail {
+    padding: 15px;
+  }
+  .trip-detail ul li p {
+    font-size: 12px !important;
+  }
+  .trip-detail ul li h6 {
+    flex: 0 0 40%;
+    font-size: 13px !important;
+  }
+  /* Chat */
+  .msg-list time {
+    margin-bottom: 0px;
+  }
+  .send-msg .msg-list li {
+    border-radius: 20px 20px 0 20px;
+  }
+  .msg-list li:last-child {
+    border-radius: 0 20px 20px 20px;
+  }
+  .our-cust-card {
+    min-height: 150px;
+  }
+  .our-cust-card .react-loading-skeleton {
+    height: 150px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .our-customer-slider .owl-item {
+    margin-left: 30px;
+  }
+  /* Itinerary Page */
+  .itinerary-data h2,
+  .itinerary-data h3,
+  .itinerary-data h4 {
+    margin-bottom: 10px;
+    color: #004f87;
+  }
+  .trip-form h4 {
+    font-size: 16px !important;
+  }
+  form .input-grp:nth-child(3) div {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  form .input-grp:nth-child(3) div p.error {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* Trip Detail */
+  .trip-detail ul li div{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .our-customer-slider .owl-item {
+    margin-left: 15px;
+  }
+  .trip-detail ul li div{
+    font-size: 13px;
+  }
+}

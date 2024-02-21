@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --primary-color: #004f87;
+  --secondry-color: #fcd228;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --font-Caveat: "Caveat", cursive;
+}
+ul,
+li,
+ol,
+dl {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  cursor: default;
+}
+.br-btm-0 {
+  border-radius: 24px 24px 0 0 !important;
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+.error {
+  font-size: 0.75rem;
+  color: #d32f2f;
+  margin-top: 3px;
+  margin-right: 14px;
+  margin-bottom: 0;
+  margin-left: 14px;
+  display: inline-block;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+svg {
+  color: var(--black-color);
+}
+
+table p {
+  margin-bottom: 0;
+}
+.color-primary {
+  color: var(--primary-color);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  object-position: center;
+}
